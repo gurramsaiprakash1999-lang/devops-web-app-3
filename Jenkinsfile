@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('1. Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/gurramsaiprakash199-lang/devops-web-app-3.git'
+                git branch: 'main', url: 'https://github.com/gurramsaiprakash1999-lang/devops-web-app-3.git'
             }
         }
         stage('2. Build Docker Image') {
